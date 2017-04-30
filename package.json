@@ -13,12 +13,14 @@
     "url": "git+https://github.com/sanoop-jose/react-component-template.git"
   },
   "keywords": [
-    "react-component",
     "react",
+    "react-component",
     "component",
+    "boilerplate",
     "template",
     "npm",
-    "package"
+    "package",
+    "npm-publish"
   ],
   "author": "Sanoop Jose <snupjos@gmail.com>",
   "license": "MIT",

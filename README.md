@@ -12,17 +12,18 @@ React independent component template
 ## Usage
 
     clone the repo from
-        https://github.com/sanoop-jose/react-component-template.git
+        `https://github.com/sanoop-jose/react-component-template.git`
 
-## Run the preview 
+## Component Preview 
 
 `npm start`
 
 ## Test Component 
 
 `npm test`
+    It will run the test-case along with the coverage report
 
-## Build Component
+## Build
 
 `npm run build`
 
