@@ -7,7 +7,7 @@ module.exports = {
     path: path.join(__dirname, './lib'),
     filename: "index.js",
     libraryTarget: 'umd',
-    library: 'ReactSingleDropdown'
+    library: 'ReactComponentTemplate'
   },
   resolveLoader: {
     moduleExtensions: ['-loader']

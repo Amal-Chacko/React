@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.scss'
 
-class ReactSingleDropdown extends React.Component {
+class ReactComponentTemplate extends React.Component {
   constructor(props) {
     super(props)
   }
@@ -13,4 +13,4 @@ class ReactSingleDropdown extends React.Component {
   }
 }
 
-export default ReactSingleDropdown
+export default ReactComponentTemplate
