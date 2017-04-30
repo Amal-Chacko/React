@@ -1,6 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import './style.scss'
 
-ReactDOM.render((
-  <div>Hello World...!!!</div>
-), document.getElementById('root'))
+class ReactSingleDropdown extends React.Component {
+  constructor(props) {
+    super(props)
+  }
+
+  render() {
+    return <div className='component-class'>
+      This is my react component
+    </div>
+  }
+}
+
+export default ReactSingleDropdown

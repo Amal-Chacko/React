@@ -2,7 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./demo/index.js",
   output: {
     path: __dirname,
     filename: "index.js",
@@ -16,19 +16,39 @@ module.exports = {
       {
         test: /\.js$/,
         loaders: ['react-hot'],
-        include: path.join(__dirname, './src')
+        include: [
+          path.join(__dirname, './src'),
+          path.join(__dirname, './demo')
+        ]
       },
       {
         test: /\.js$/,
         loader: 'babel',
-        include: path.join(__dirname, './src'),
+        include: [
+          path.join(__dirname, './src'),
+          path.join(__dirname, './demo')
+        ]
       },
       {
         test: /\.html$/,
         loader: 'file?name=[name].html'
       },
-      { test: /\.scss$/, loader: 'style-loader!css-loader?minimize!sass-loader' },
-      { test: /\.css$/, loader: 'style-loader!css-loader?minimize' }
+      {
+        test: /\.scss$/,
+        loader: 'style-loader!css-loader?minimize!sass-loader',
+        include: [
+          path.join(__dirname, './src'),
+          path.join(__dirname, './demo')
+        ]
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader?minimize',
+        include: [
+          path.join(__dirname, './src'),
+          path.join(__dirname, './demo')
+        ]
+      }
     ]
   }
 };
