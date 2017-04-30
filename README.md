@@ -11,8 +11,8 @@ React independent component template
 
 ## Usage
 
-    clone the repo from
-        `https://github.com/sanoop-jose/react-component-template.git`
+clone the repo from
+        https://github.com/sanoop-jose/react-component-template.git
 
 ## Component Preview 
 
