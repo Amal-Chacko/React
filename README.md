@@ -3,7 +3,7 @@ React independent component template
 
 ## Features
 
-- coming soon
+
 
 
 ## Usage
